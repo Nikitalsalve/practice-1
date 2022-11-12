@@ -1,5 +1,12 @@
 webDriver driver= new ChromeDriver();
 driver.get("https://www.actitime.com/demo-request");
 driver.quit();
+<<<<<<< HEAD
 driver.close();
 driver.get();
+=======
+driver.manage().maximize();
+>>>>>>> branch 'main' of https://github.com/Nikitalsalve/practice-1.git
+driver.manage().manimize();
+driver.navigate().refresh();
+driver.navigate.back();
